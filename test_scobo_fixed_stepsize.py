@@ -35,6 +35,35 @@ plot_iter = num_iterations
 L = 1
 r = np.sqrt(2/L)/2 
 
+'''
+################################
+# Another test problem
+kappa = 1.5
+mu = 4
+delta_0 = 0.5
+if kappa == 1:
+	fixed_flip_rate = True
+else:
+	fixed_flip_rate = False
+
+d = 500
+s = 20
+m = int((s**2)*np.log(2*d/s))
+
+obj_fcn = MaxK(d,s)
+comparison = ComparisonOracle(obj_fcn,kappa,mu,delta_0)
+
+
+default_step_size = 2
+
+x0 = 20*np.random.randn(d)
+x0_backup=np.copy(x0)
+num_iterations = 1200
+
+L = 1
+r = 1/(2*np.sqrt(s))/4  
+#################################
+'''
 
 line_search = False
 warm_started = False

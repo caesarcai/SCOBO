@@ -24,13 +24,12 @@ class SparseQuadric(object):
 class MaxK(object):
     '''An implementation of the max-k-squared-sum function.'''
     def __init__(self, d, s):
-        self.dim = d
+        #self.dim = d
         self.s = s
 
     def __call__(self, x):
-        idx = np.argsort(np.abs(x))
-        idx2 = idx[self.dim-self.s:self.dim]
-        return np.dot(x[idx2], x[idx2])/2
+        Max_IDX = np.abs(x).argsort()[-self.s:]
+        return np.dot(x[Max_IDX],x[Max_IDX])
  
 
 
