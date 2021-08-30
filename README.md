@@ -1,6 +1,9 @@
 # SCOBO
 This Python repo is for a comparison orcale based optimization algorithm introduced in [1], which is coined *S*parsity-aware *Co*mparison-*B*ased *O*ptimization (SCOBO).
 
+## The Problem
+We aim to minimize an objective function $f(x)$ via merely the noisy comparison orcales $\mathcal{C}_f(x,y)$. 
+
 
 ## Syntex
 x, regret, tau_vec ,c_num_queries = SCOBO(comparison,obj_fcn,num_iterations,default_step_size,x0,r,m,d,s,fixed_flip_rate,line_search,warm_started)
@@ -30,4 +33,4 @@ Run `test_sobo.py` for demo. Therein, we include four test problems. More detail
 
 
 ## Reference
-[1] H.Q. Cai, D. Mckenzie, W. Yin, and Z. Zhang. A One-bit, Comparison-Based Gradient Estimator. *arXiv: 2010.02479*.
+[1] HanQin Cai, Daniel Mckenzie, Wotao Yin, and Zhenliang Zhang. A One-bit, Comparison-Based Gradient Estimator. *arXiv: 2010.02479*.
