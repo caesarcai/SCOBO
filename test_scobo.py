@@ -3,7 +3,10 @@ import matplotlib.pyplot as plt
 from objectives import *
 from scobo import *
 from oracle import ComparisonOracle
-#The user must install Gurobi to use this program
+"""
+The user MUST install Gurobi to use this program.
+Check https://www.gurobi.com/ for installation details.
+"""
 #'''
 ################################
 # Test problem (a)
