@@ -2,7 +2,8 @@
 This Python repo is for a comparison orcale based optimization algorithm introduced in [1], which is coined *S*parsity-aware *Co*mparison-*B*ased *O*ptimization (SCOBO).
 
 ## The Problem
-We aim to minimize an objective function $f(x)$ via merely the noisy comparison orcales $\mathcal{C}_f(x,y)$. 
+We aim to minimize an objective function $f(x)$ via merely the noisy comparison orcales $\mathcal{C}_f(x,y)$. Formally,
+$$\mathbb{P}[\mathcal{C}_f(x,y)=\mathrm{sign}(f(y)-f(x))=\theta(|f(y)-f(x)|)$$
 
 
 ## Syntex
