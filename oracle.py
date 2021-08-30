@@ -11,8 +11,6 @@ class ComparisonOracle(object):
 	    '''
 	    Implements comparison oracle for sparse quadratic
 	    In noiseless case, return 1 if f(x)<f(y); otherwise return -1
-	    function f(x) = x^TQx
-	    May 25th 2020
 	    '''
 	    fx = self.obj_fcn(x)
 	    fy = self.obj_fcn(y)
