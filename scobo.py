@@ -159,7 +159,8 @@ def SCOBO(Comparison,object_fcn,num_iterations,default_step_size,x0,r,m,d,s,fixe
     in our paper. 
     
     =============== INPUTS ================
-    Comparison..................... comparison orcale
+    Comparison .................... handle of the comparison orcale
+    object_fcn .................... objective function, this is for recording regret only. not used for solving problem
     num_iterations ................ number of iterations
     default_step_size ............. default step size
     x0 ............................ initial iterate
@@ -168,11 +169,12 @@ def SCOBO(Comparison,object_fcn,num_iterations,default_step_size,x0,r,m,d,s,fixe
     m ............................. number of samples per iteration
     d ............................. dimension of problem
     s ............................. sparsity level
-    fixed_flip_rate ............... ture if kappa==1, i.e., comparison orcale's flip rate is independent to |f(x)-f(y)|
+    fixed_flip_rate ............... ture if kappa==1, i.e., comparison orcale's flip rate is independent to |f(x)-f(y)|; otherwise false
     line_search ................... wheather linesearch for step size. if not, use default step size
     warm_started .................. wheather use warm start in linesearch
      
     =============== OUTPUTS ================
+    x ............................ estimated optimum point 
     regret ....................... vector of errors f(x_k) - min f
     tau_vec ...................... tau_vec(k) = fraction of flipped measurements at k-th iteration
     c_num_queries ................ cumulative number of queries.
