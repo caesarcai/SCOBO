@@ -2,8 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import gurobipy as gp 
 from gurobipy import GRB, quicksum
-#The user must install Gurobi to use this program
-
+"""
+The user MUST install Gurobi to use this program.
+Check https://www.gurobi.com/ for installation details.
+"""
 
 def Solve1BitCS(y,Z,m,d,s):
     '''
