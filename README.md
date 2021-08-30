@@ -1,5 +1,5 @@
 # SCOBO
-This Python repo is for a comparison orcale based optimization algorithm introduced in <a href=https://arxiv.org/abs/2010.02479>[1]<\a>, which is coined *S*parsity-aware *Co*mparison-*B*ased *O*ptimization (SCOBO).
+This Python repo is for a comparison orcale based optimization algorithm introduced in <a href=https://arxiv.org/abs/2010.02479>[1]</a>, which is coined *S*parsity-aware *Co*mparison-*B*ased *O*ptimization (SCOBO).
 
 ###### To display math symbols properly, one may have to install a MathJax plugin. For example, [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima?hl=en).
 
