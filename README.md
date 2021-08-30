@@ -10,7 +10,9 @@ with some monotonically increasing $\theta$ that $\theta(0)\geq 0.5$. In words, 
 
 
 ## Syntex
+```
 x, regret, tau_vec , c_num_queries = SCOBO(comparison, obj_fcn, num_iterations, default_step_size, x0, r, m, d, s, fixed_flip_rate, line_search, warm_started)
+```
 
 ## Input Description
 1. comparison : handle of the comparison orcale
