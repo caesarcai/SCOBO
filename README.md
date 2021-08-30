@@ -1,6 +1,8 @@
 # SCOBO
 This Python repo is for a comparison orcale based optimization algorithm introduced in [1], which is coined *S*parsity-aware *Co*mparison-*B*ased *O*ptimization (SCOBO).
 
+###### To display math symbols properly, one may have to install a MathJax plugin. For example, [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima?hl=en).
+
 ## The Problem
 We aim to minimize an objective function $f:\mathbb{R}^d \rightarrow \mathbb{R}$ via merely its noisy comparison orcales $\mathcal{C}_f(\cdot,\cdot):\mathbb{R}^d \times \mathbb{R}^d \rightarrow $\{$-1,+1$\}, where 
 $$\mathbb{P}[\mathcal{C}_f(x,y)=\mathrm{sign}(f(y)-f(x))]=\theta(|f(y)-f(x)|)$$
@@ -8,7 +10,7 @@ with some monotonically increasing $\theta$ that $\theta(0)\geq 0.5$. In words, 
 
 
 ## Syntex
-x, regret, tau_vec ,c_num_queries = SCOBO(comparison,obj_fcn,num_iterations,default_step_size,x0,r,m,d,s,fixed_flip_rate,line_search,warm_started)
+x, regret, tau_vec , c_num_queries = SCOBO(comparison, obj_fcn, num_iterations, default_step_size, x0, r, m, d, s, fixed_flip_rate, line_search, warm_started)
 
 ## Input Description
 1. comparison : handle of the comparison orcale
