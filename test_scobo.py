@@ -22,7 +22,7 @@ else:
 # Dimension and sampling parameters
 d = 500
 s = 20
-m = int((s**2)*np.log(2*d/s))
+m = int(20*s*np.log(2*d/s))
 
 # Setup objective function and the corresponding comparison oracle
 obj_fcn = SkewedQuartic(d,s)  # only this pass into SCOBO for recording regret
@@ -53,7 +53,7 @@ else:
 
 d = 500
 s = 20
-m = int((s**2)*np.log(2*d/s))
+m = int(20*s*np.log(2*d/s))
 
 obj_fcn = MaxK(d,s)
 comparison = ComparisonOracle(obj_fcn,kappa,mu,delta_0)
@@ -82,7 +82,7 @@ else:
 
 d = 500
 s = 20
-m = int((s**2)*np.log(2*d/s))
+m = int(20*s*np.log(2*d/s))
 
 
 obj_fcn = SkewedQuartic(d,s)  # only this pass into SCOBO for recording regret
@@ -112,7 +112,7 @@ else:
 
 d = 500
 s = 20
-m = int((s**2)*np.log(2*d/s))
+m = int(20*s*np.log(2*d/s))
 
 obj_fcn = MaxK(d,s)
 comparison = ComparisonOracle(obj_fcn,kappa,mu,delta_0)
