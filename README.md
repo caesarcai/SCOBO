@@ -39,4 +39,4 @@ Run `test_sobo.py` for demo. Therein, we include four test problems. More detail
 
 
 ## Reference
-[1] HanQin Cai, Daniel Mckenzie, Wotao Yin, and Zhenliang Zhang. A One-bit, Comparison-Based Gradient Estimator. *arXiv: 2010.02479*.
+[1] HanQin Cai, Daniel Mckenzie, Wotao Yin, and Zhenliang Zhang. <a href=https://doi.org/10.1016/j.acha.2022.03.003>A One-bit, Comparison-Based Gradient Estimator</a>. *Applied and Computational Harmonic Analysis*, 60: 242-266, 2022.
