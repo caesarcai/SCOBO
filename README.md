@@ -1,5 +1,5 @@
 # SCOBO
-This Python repo is for a comparison orcale based optimization algorithm introduced in <a href=https://arxiv.org/abs/2010.02479>[1]</a>, which is coined *S*parsity-aware *Co*mparison-*B*ased *O*ptimization (SCOBO).
+This Python repo is for a comparison orcale based optimization algorithm introduced in <a href=https://doi.org/10.1016/j.acha.2022.03.003>[1]</a>, which is coined *S*parsity-aware *Co*mparison-*B*ased *O*ptimization (SCOBO).
 
 [1] HanQin Cai, Daniel Mckenzie, Wotao Yin, and Zhenliang Zhang. <a href=https://doi.org/10.1016/j.acha.2022.03.003>A One-bit, Comparison-Based Gradient Estimator</a>. *Applied and Computational Harmonic Analysis*, 60: 242-266, 2022.
 
