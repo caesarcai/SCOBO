@@ -1,6 +1,8 @@
 # SCOBO
 This Python repo is for a comparison orcale based optimization algorithm introduced in <a href=https://arxiv.org/abs/2010.02479>[1]</a>, which is coined *S*parsity-aware *Co*mparison-*B*ased *O*ptimization (SCOBO).
 
+[1] HanQin Cai, Daniel Mckenzie, Wotao Yin, and Zhenliang Zhang. <a href=https://doi.org/10.1016/j.acha.2022.03.003>A One-bit, Comparison-Based Gradient Estimator</a>. *Applied and Computational Harmonic Analysis*, 60: 242-266, 2022.
+
 ###### To display math symbols properly, one may have to install a MathJax plugin. For example, [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima?hl=en).
 
 ## The Problem
@@ -37,6 +39,3 @@ x, regret, tau_vec , c_num_queries = SCOBO(comparison, obj_fcn, num_iterations, 
 ## Demo
 Run `test_sobo.py` for demo. Therein, we include four test problems. More details about the test problems can be found in the paper. 
 
-
-## Reference
-[1] HanQin Cai, Daniel Mckenzie, Wotao Yin, and Zhenliang Zhang. <a href=https://doi.org/10.1016/j.acha.2022.03.003>A One-bit, Comparison-Based Gradient Estimator</a>. *Applied and Computational Harmonic Analysis*, 60: 242-266, 2022.
