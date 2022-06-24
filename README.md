@@ -6,7 +6,7 @@ This Python repo is for a comparison orcale based optimization algorithm introdu
 ###### To display math symbols properly, one may have to install a MathJax plugin. For example, [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima?hl=en).
 
 ## The Problem
-We aim to minimize an objective function $f:\mathbb{R}^d \rightarrow \mathbb{R}$ via merely its noisy comparison orcales $\mathcal{C}_f(\cdot,\cdot):\mathbb{R}^d \times \mathbb{R}^d \rightarrow \{$-1,+1$\}$, where 
+We aim to minimize an objective function $f:\mathbb{R}^d \rightarrow \mathbb{R}$ via merely its noisy comparison orcales $\mathcal{C}_f(\cdot,\cdot):\mathbb{R}^d \times \mathbb{R}^d \rightarrow $\{$-1,+1$\}, where 
 $$\mathbb{P}[\mathcal{C}_f(x,y)=\mathrm{sign}(f(y)-f(x))]=\theta(|f(y)-f(x)|)$$
 with some monotonically increasing $\theta$ that $\theta(0)\geq 0.5$. In words, there is chance that the comparison orcale may return a wrong sign, but this chance is always less than $50$%. In addition, when comparing two more distinct points, the chance of getting a wrong sign is no worse than comparing two less distinct points.
 
